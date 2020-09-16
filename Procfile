@@ -1,1 +1,1 @@
-web: gunicorn codeleap:network
+web: gunicorn codeleap.wsgi
