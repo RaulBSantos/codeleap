@@ -1,1 +1,1 @@
-web: gunicorn codeleap.wsgi
+web: gunicorn hello:app
