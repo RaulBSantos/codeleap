@@ -25,7 +25,9 @@ SECRET_KEY = "g--0ubm5$x&!t2d!yl!v)=1na$1x&iiftshgso4(q!@)z@5^v^"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "codelap-backend.herokuapp.com",
+]
 
 
 # Application definition
