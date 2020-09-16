@@ -26,8 +26,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "g--0ubm5$x&!t2d!yl!v)=1na$1x&iiftshgso4(q!@)z@5^v^"
 
-STATIC_ROOT = os.path.join(BASE_DIR, "staticfile")
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
