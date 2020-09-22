@@ -1,1 +1,1 @@
-web: gunicorn codeleap:network
+web: gunicorn --pythonpath codeleap codeleap.wsgi --log-file -
